@@ -12,6 +12,7 @@ const WS_PORT = process.env.WS_PORT || 3002;
    const { iniciarVerificador } = require('./server/routes/verificadorautomatico');
 
 
+
 app.use(cors({
   origin: [
     'http://localhost:3000',     
